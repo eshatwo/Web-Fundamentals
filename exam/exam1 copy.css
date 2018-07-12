@@ -1,0 +1,14 @@
+#container{
+    background-color: black
+}
+#nav{
+    background-color: grey;
+}
+
+
+
+
+ul li{
+    list-style-type: none;
+    display: inline;
+}

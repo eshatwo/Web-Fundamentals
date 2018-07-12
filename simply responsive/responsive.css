@@ -1,0 +1,31 @@
+h1{
+    background-color: #646262;
+    width: 1200px;
+    height: 50px;
+    padding: 10px;
+}
+
+p{
+    background-color: #a8a5a5;
+    height: 100px;
+    width: 1200px;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 480px){
+    .sm-4 {
+        width: 25%;
+    }
+}
+
+@media only screen and (min-width: 481px){
+    .med-2 {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    .lg-1 {
+        width: 100%;
+    }
+}

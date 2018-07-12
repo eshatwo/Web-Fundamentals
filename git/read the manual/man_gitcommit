@@ -1,0 +1,48 @@
+Last login: Thu May 24 16:25:43 on ttys000
+Eshas-MacBook-Pro:~ eshaaggarwal$ man git-commit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       variable, the VISUAL environment variable, or the EDITOR environment
+       variable (in that order). See git-var(1) for details.
+
+HOOKS
+       This command can run commit-msg, prepare-commit-msg, pre-commit,
+       post-commit and post-rewrite hooks. See githooks(5) for more
+       information.
+
+FILES
+       $GIT_DIR/COMMIT_EDITMSG
+           This file contains the commit message of a commit in progress. If
+           git commit exits due to an error before creating a commit, any
+           commit message that has been provided by the user (e.g., in an
+           editor session) will be available in this file, but will be
+           overwritten by the next invocation of git commit.
+
+SEE ALSO
+       git-add(1), git-rm(1), git-mv(1), git-merge(1), git-commit-tree(1)
+
+GIT
+       Part of the git(1) suite
+
+Git 2.14.0                        08/04/2017                     GIT-COMMIT(1)
+(END)

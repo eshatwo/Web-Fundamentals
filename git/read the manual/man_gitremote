@@ -1,0 +1,47 @@
+Last login: Thu May 24 16:26:54 on ttys000
+Eshas-MacBook-Pro:~ eshaaggarwal$ man git-remote
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 origin/master
+                 staging/master
+                 staging/staging-linus
+                 staging/staging-next
+               $ git checkout -b staging staging/master
+               ...
+
+       o   Imitate git clone but track only selected branches
+
+               $ mkdir project.git
+               $ cd project.git
+               $ git init
+               $ git remote add -f -t master -m master origin git://example.com/git.git/
+               $ git merge origin
+
+SEE ALSO
+       git-fetch(1) git-branch(1) git-config(1)
+
+GIT
+       Part of the git(1) suite
+
+Git 2.14.0                        08/04/2017                     GIT-REMOTE(1)
+(END)

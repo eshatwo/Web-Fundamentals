@@ -1,0 +1,48 @@
+Last login: Thu May 24 15:40:52 on ttys000
+Eshas-MacBook-Pro:~ eshaaggarwal$ man gittutorial
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+           binary search for that commit. It is smart enough to perform a
+           close-to-optimal search even in the case of complex non-linear
+           history with lots of merged branches.
+
+       o   gitworkflows(7): Gives an overview of recommended workflows.
+
+       o   giteveryday(7): Everyday Git with 20 Commands Or So.
+
+       o   gitcvs-migration(7): Git for CVS users.
+
+SEE ALSO
+       gittutorial-2(7), gitcvs-migration(7), gitcore-tutorial(7),
+       gitglossary(7), git-help(1), gitworkflows(7), giteveryday(7), The Git
+       User's Manual[1]
+
+GIT
+       Part of the git(1) suite
+
+NOTES
+        1. The Git User's Manual
+           git-htmldocs/user-manual.html
+
+Git 2.14.0                        08/04/2017                    GITTUTORIAL(7)
+(END)

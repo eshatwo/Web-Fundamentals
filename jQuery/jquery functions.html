@@ -1,0 +1,60 @@
+<!doctype>
+<html>
+    <head>
+        <title>jQuery Functions</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('h1').html('Real Title');
+                $('div').addClass("divs");
+                $('button').click(function(){
+                    $('h1').hide();
+                    $('p').toggle();
+                } )
+                $('button').click(function(){
+                    $('h2').fadeOut();
+                } )
+                $('div').click(function(){
+                    $('h1, h2').fadeIn();
+                })
+                $('h1').before('jQuery');
+                $('h1').after('Functions');
+                $('p').hover(function(){
+                    $(this).text("funky");
+                })
+                $('p').click(function(){
+                    $(this).show("text");
+                })
+                $('li').hover(function(){
+                    $('h5').slideDown("slow");
+                })
+            })
+        </script>
+    </head>
+
+    <body>
+        <div>
+            <h1>Title</h1>
+            <p>do something to this text</p>
+            <ul>
+                <li>apple</li>
+                <li>banana</li>
+                <li>orange</li>
+                <li>kiwi</li>
+            </ul>
+            
+            <button>Click me</button>
+        </div>
+        <h5>another header</h5>
+        <div>
+            <h2>Another Titile</h2>
+            <p>another piece of text to do something with</p>
+            <button>Don't click</button>
+        </div>
+        <div>
+            <h2>This is so long</h2>
+            <p>more text yay</p>
+            <button>Click if you want</button>
+        </div>
+    </body>
+</html>

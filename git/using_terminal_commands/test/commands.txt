@@ -1,0 +1,9 @@
+Open Terminal - “command, s”, search for terminal, press enter
+Navigate to Desktop - pwd, ls , cd desktop
+Create New Directory - mkdir test
+Make Files - cd test, touch index.html, touch styles.css, touch commands.txt, ls
+Make a Copy - cp index.html index_2.html
+Navigate Back to your Desktop and Make Another Directory - cd .., ls, mkdir destination
+Move the index_2.html File to the 'destination' Directory - mv index_2.html destination/index_2.html
+Remove the 'styles.css' File - cd test, rm styles.css
+Check and See What Files are in the 'test' and 'destination' Directories - ls, cd .., cd destination

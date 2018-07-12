@@ -1,0 +1,184 @@
+.header{
+    width: 1000px;
+    background-color: #203139;
+    margin-bottom: -17px;
+}
+
+h1{
+    display: inline-block;
+    color:white;
+    padding-left: 10px;
+    padding-right: 600px;
+
+}
+
+img{
+    display: inline-block;
+}
+
+.navbar{
+    width: 1000px;
+    height: 50px;
+    background: linear-gradient(#3E4F59, #222F35);
+}
+
+ul{
+    list-style-type: none;
+    padding-top: 10px;
+}
+
+li{
+    display: inline;
+    border-right: 2px solid #bbb;
+    padding-right: 20px;
+    padding-left: 10px;
+    color: rgb(211, 204, 204);
+    
+}
+
+.banner{
+    width: 1000px;
+    margin-bottom: -8px; 
+}
+
+.color{
+    background-color: #35453D;
+    width: 1000px;
+    color: #35453D;
+    margin:0px;
+
+}
+
+.main{
+    width: 1000px;
+    height: 880px;
+    background-color: #203139;
+    margin-top: -35px;
+    
+}
+
+#search{
+    padding-top: 20px;
+    padding-left:15px;
+    color:white;
+    margin-bottom: 0px;
+    font-size: 15px;
+}
+
+textarea{
+    color:black;
+    background-color: white;
+    width: 150px;
+    height: 20px;
+    margin-left:15px;
+    margin-right: 5px;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+.notes{
+    width: 210px;
+    margin-left:10px;
+    
+}
+
+h3{
+    border: 1px solid;
+    border-color: white;
+    padding: 5px;
+    background: linear-gradient(#3E4F59, #222F35);
+    color: rgb(211, 204, 204);
+}
+
+p{
+    border: 1px solid;
+    border-color: rgb(211, 204, 204);;
+    width: 198px;
+    margin-top: -20px;
+    padding: 5px;
+    background-color: #23343B;
+    color: rgb(211, 204, 204);
+}
+
+#text{
+    border: 1px solid;
+    border-color: rgb(211, 204, 204);
+    padding: 5px;
+    width: 198px;
+    margin-left:10px;
+    margin-bottom: 20px;
+    color: rgb(211, 204, 204);
+}
+
+#green{
+    margin-left: 10px;
+    width: 210px;
+}
+
+#container{
+    width: 750px;
+    height: 880px;
+    background-color: #33524D;
+    position: relative;
+    left: 240px;
+    bottom: 862px;
+    border-radius: 20px;
+}
+
+.chunk{
+    padding: 10px 0px 0px 20px;
+}
+
+h2{
+    color: white;
+}
+
+p.info{
+    background-color: transparent;
+    width: 530px;
+    border:0px;
+    color: rgb(211, 204, 204);
+}
+
+.bar{
+    width: 530px;
+    border: 1px solid rgb(169, 177, 194);
+    height: 5px;
+}
+
+#side{
+    background-color: transparent;
+    display: inline-block;
+    position: relative;
+    left:570px;
+    bottom: 750px;
+}
+
+p.side{
+    border: 1px solid;
+    border-color: rgb(211, 204, 204);
+    background-color: transparent;
+    color: rgb(211, 204, 204);
+    width: 150px;
+    margin-top: 0px;
+}
+
+img.sidepic{
+    border: 2px solid rgb(211, 204, 204);
+    width: 150px;
+    margin: 15px 0px 15px 0px;
+}
+
+h4{
+    border: 1px solid;
+    border-color: rgb(211, 204, 204);
+    background-color: transparent;
+    color: rgb(211, 204, 204);
+    width: 80px;
+    padding:3px;
+    margin:0px;
+}
+
+span{
+    color:#CFFE8E;
+}

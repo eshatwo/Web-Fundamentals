@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html>
+    <script>
+	
+function pLRH(arr){
+    var high = arr[0];
+    var low = arr[0];
+    for (var i=1; i<arr.length; i++){
+        if (arr[i]>high){
+            high=arr[i];
+        }
+        if (arr[i]<low){
+            low=arr[i];
+        }
+    }
+    console.log("This one is low", low);
+    return high;
+}
+
+var eshas = [1,2,3];
+
+pLRH(eshas);
+
+    </script>
+
+</html>
+
+function poRA(arr){
+    var one = arr[0];
+    var another = arr[0];
+    for (var i=1; i<arr.length; i++){
+        one=arr[i+1];
+        console.log(one);
+        if (i % 2 !== 0){
+            another=arr[i];
+            return another;
+        }
+    }
+
+    
+}
+
+var eshas = [4,6,9,12];
+
+poRA(eshas);
+
+function double(arr){
+    for (var i=0; i<arr.length; i++){
+        arr[i] = arr[i]*2;
+    }
+    console.log(arr);
+}
+
+var eshas = [4,6,9,12];
+
+double(eshas);
+
+
+
+function positives(arr){
+    
+}

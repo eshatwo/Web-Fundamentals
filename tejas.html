@@ -1,0 +1,33 @@
+
+<!DOCTYPE HTML>
+<html>
+    <script>
+
+function high(arr){
+    var high = arr[0];
+    for (var i=1; i<arr.length; i++){
+        if (arr[i]>high){
+            high=arr[i];
+        }
+    }
+    return high;
+}
+function low(arr){
+    var low = arr[0];
+    for (var i=1; i<arr.length; i++){
+        if (arr[i]<low){
+            low=arr[i];
+        }
+    }
+    return low;
+}
+
+
+var eshas = [1,2,3];
+
+console.log(high(eshas));
+console.log(low(eshas));
+
+    </script>
+
+</html>
